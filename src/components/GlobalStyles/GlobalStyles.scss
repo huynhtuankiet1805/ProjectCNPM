@@ -1,0 +1,109 @@
+@import 'normalize.css';
+
+// Import font
+// @import url();
+
+// Color
+:root {
+    --red: #fe2c55;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 14px;
+}
+
+body {
+    margin: 0;
+}
+
+//////////////////////////////////////////////////////////////////////////////////
+/// * Header, Footer
+///
+select {
+    border-radius: 0.5rem;
+}
+
+option,
+select {
+    background-color: rgb(227, 221, 221);
+    margin-top: -1rem;
+    width: 6rem;
+    height: 2.5rem;
+}
+a {
+    text-decoration: none;
+}
+
+#mainLogo {
+    float: left;
+    height: 7rem;
+}
+
+#textName {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 20%;
+    height: 3.5rem;
+    color: #361f17;
+}
+
+#Place {
+    float: left;
+    height: 2rem;
+    width: 6.5rem;
+    margin-left: 6.5rem;
+    margin-top: 0.5rem;
+    margin-right: 9rem;
+}
+
+#slt {
+    float: left;
+    height: 2rem;
+    font-size: 1.5rem;
+}
+
+.opt {
+    float: left;
+    margin-right: 4rem;
+}
+
+#username {
+    margin-left: 5rem;
+    font-size: 1.5rem;
+}
+
+#btGiohang {
+    border-radius: 1rem;
+    background-color: rgb(149, 149, 149);
+    color: white;
+    font-size: 1rem;
+}
+
+#company {
+    float: left;
+    margin-left: 2rem;
+    width: 40rem;
+}
+
+#footlogo {
+    float: left;
+    text-align: center;
+}
+
+#logo {
+    display: flex;
+    height: 12rem;
+}
+
+#address {
+    float: right;
+    text-align: right;
+    margin-right: 1rem;
+}
+///
+/// ///
+//////////////////////////////////////////////////////////////////////////////////
