@@ -18,7 +18,7 @@ function Footer() {
             </div>
             <div><img src={Logo.image} alt="footlogo" id="logo" /></div>
         </div>
-        <div id="address">
+        <div id="companyaddress">
             <h5>Địa chỉ công ty</h5>
             <p>
                 Công ty cổ phần NOBORE <br />
