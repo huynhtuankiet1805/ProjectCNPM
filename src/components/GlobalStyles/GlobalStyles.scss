@@ -15,14 +15,16 @@
 html {
     font-size: 14px;
 }
-
-body {
-    margin: 0;
+.container {
+    float: left;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 }
 
-//////////////////////////////////////////////////////////////////////////////////
-/// * Header, Footer
-///
+nav {
+    position: relative;
+}
+
 select {
     border-radius: 0.5rem;
 }
@@ -37,32 +39,41 @@ select {
 a {
     text-decoration: none;
 }
+#mainName {
+    height: 7rem;
+    width: 20%;
+    height: 15%;
+}
 
 #mainLogo {
     float: left;
-    height: 7rem;
+    height: 50%;
+    width: 60%;
 }
 
 #textName {
+    float: left;
     font-weight: bold;
     font-size: 2rem;
-    margin-top: 20%;
+    margin-top: 10%;
     height: 3.5rem;
+    width: 40%;
     color: #361f17;
 }
 
 #Place {
     float: left;
-    height: 2rem;
-    width: 6.5rem;
+    height: 15%;
+    width: 10%;
     margin-left: 6.5rem;
     margin-top: 0.5rem;
-    margin-right: 9rem;
+    margin-right: 4rem;
 }
 
 #slt {
     float: left;
-    height: 2rem;
+    height: 15%;
+    width: 50%;
     font-size: 1.5rem;
 }
 
@@ -70,7 +81,9 @@ a {
     float: left;
     margin-right: 4rem;
 }
-
+#navbarSupportedContent {
+    width: 20%;
+}
 #username {
     margin-left: 5rem;
     font-size: 1.5rem;
@@ -80,30 +93,36 @@ a {
     border-radius: 1rem;
     background-color: rgb(149, 149, 149);
     color: white;
+    width: 10rem;
+    height: 4rem;
     font-size: 1rem;
+}
+#logogiohang {
+    width: 50%;
+    height: 90%;
 }
 
 #company {
     float: left;
     margin-left: 2rem;
-    width: 40rem;
+    width: 33%;
 }
 
 #footlogo {
     float: left;
     text-align: center;
+    width: 30%;
 }
 
 #logo {
     display: flex;
     height: 12rem;
+    margin-left: 10%;
 }
 
 #address {
     float: right;
     text-align: right;
-    margin-right: 1rem;
+    margin-right: 2rem;
+    width: 30%;
 }
-///
-/// ///
-//////////////////////////////////////////////////////////////////////////////////
