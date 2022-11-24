@@ -3,18 +3,19 @@ import Giohang from "~/image/giohang";
 function Header() {
     return (
         <nav class="navbar navbar-expand-lg">
-            <img src={Logo.image} alt="Logo web" class="Logo" id='mainLogo' />
+
             <div id="mainName">
+                <img src={Logo.image} alt="Logo web" class="Logo" id='mainLogo' />
                 <p id="textName">NOBORE</p>
             </div>
 
             <div id='Place'>
-                <select>
-                    <option value="">TP. HCM</option>
-                    <option value="">Hà Nội</option>
-                    <option value="">Đà Nẵng</option>
-                    <option value="">Cần Thơ</option>
-                    <option value="">Vũng tàu</option>
+                <select id="selectplace">
+                    <option value="" className="optplace">TP. HCM</option>
+                    <option value="" className="optplace">Hà Nội</option>
+                    <option value="" className="optplace">Đà Nẵng</option>
+                    <option value="" className="optplace">Cần Thơ</option>
+                    <option value="" className="optplace">Vũng tàu</option>
                 </select>
             </div>
             <div id='slt'>
@@ -34,7 +35,7 @@ function Header() {
 
             <div>
                 <button id="btGiohang" onclick={""}>
-                    <img src={Giohang.image} alt="logo giỏ hang" />
+                    <img src={Giohang.image} alt="logo giỏ hang" id="logogiohang" />
                     Giỏ hàng
                 </button>
             </div>
@@ -48,7 +49,7 @@ function Header() {
                             role="button"
                             data-bs-toggle="dropdown"
                             aria-expanded="false"
-                            id="username"
+                            id="user"
                         >
                             Username
                         </a>
