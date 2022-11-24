@@ -25,12 +25,12 @@ nav {
     position: relative;
 }
 
-select {
+#selectplace {
     border-radius: 0.5rem;
 }
 
-option,
-select {
+#optplace,
+#selectplace {
     background-color: rgb(227, 221, 221);
     margin-top: -1rem;
     width: 6rem;
@@ -84,7 +84,7 @@ a {
 #navbarSupportedContent {
     width: 20%;
 }
-#username {
+#user {
     margin-left: 5rem;
     font-size: 1.5rem;
 }
@@ -120,7 +120,7 @@ a {
     margin-left: 15%;
 }
 
-#address {
+#companyaddress {
     float: right;
     text-align: right;
     margin-right: 2rem;
