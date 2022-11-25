@@ -1,0 +1,123 @@
+#pay {
+    border: 2px solid black;
+    position: relative;
+    left: 7rem;
+    font-size: 1.1rem;
+}
+#txt {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+#info {
+    border: 5px solid #58352aca;
+    border-top: 15px solid #58352aca;
+    border-bottom: 15px solid #58352aca;
+    height: 31rem;
+}
+#detail {
+    border: 5px solid #58352aca;
+    border-bottom: 15px solid #58352aca;
+}
+.pay_textinfo {
+    float: left;
+    margin-left: 2rem;
+    margin-right: 5rem;
+    margin-top: 2rem;
+    font-weight: bold;
+}
+
+#username,
+#numberphone,
+#address,
+#voucher,
+#timetoship {
+    margin-left: 15px;
+    height: 2rem;
+    width: 30rem;
+    font-size: 1rem;
+}
+#address {
+    width: 70rem;
+    margin-top: 0.5rem;
+}
+#voucher {
+    width: 10rem;
+    margin-top: 0.5rem;
+    border-radius: 5px;
+}
+#frame1 {
+    width: 60%;
+    float: left;
+}
+#note {
+    float: right;
+    margin-top: -16%;
+    width: 40%;
+    font-weight: bold;
+}
+#timetoship {
+    border-radius: 5px;
+    width: 20rem;
+    margin-top: 1rem;
+}
+.btChoose {
+    width: 15%;
+    height: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: white;
+}
+#txtfee,
+#txttotal {
+    width: 68%;
+    float: left;
+    margin-left: 2%;
+    font-size: 1.3rem;
+}
+#txttotal {
+    font-weight: bold;
+    padding-top: 1rem;
+}
+#fee,
+#totalprice {
+    width: 28%;
+    float: right;
+    text-align: right;
+    margin-right: 2%;
+    font-size: 1.3rem;
+}
+#totalprice {
+    padding-top: 1rem;
+}
+#thanhtoan {
+    width: 100%;
+    margin-left: 2%;
+    margin-top: 8%;
+    margin-bottom: 2%;
+    font-size: 1.3rem;
+}
+.btPay {
+    width: 15rem;
+    height: 7rem;
+    margin-left: 3%;
+    font-size: 1.3rem;
+    background-color: white;
+}
+#lastframe {
+    text-align: center;
+}
+#btConfirm {
+    width: 10rem;
+    height: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    background-color: #361f17;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
