@@ -2,7 +2,7 @@ import './login.scss'
 function Login() {
     return <div id="login-page">
         <div id="img-login-res">
-              <img src="./assets/css/img/Green and Black Minimal Food Code Logo.png" height="200px" width="251px" alt="">
+              <img src="Logo_Nobore.image" height="200px" width="251px" alt="">
             </div>
             <div class="form">
               <form id="login-form">
