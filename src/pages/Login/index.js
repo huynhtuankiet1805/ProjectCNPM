@@ -1,4 +1,5 @@
 import './login.scss'
+import Logo_Nobore from "~image/logo_nobore"
 function Login() {
     return <div id="login-page">
         <div id="img-login-res">
