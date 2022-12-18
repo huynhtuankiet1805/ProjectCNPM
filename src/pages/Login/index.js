@@ -20,7 +20,7 @@ function Login() {
                 <button class="btn-create">TẠO MỘT TÀI KHOẢN MỚI</button>
               </form>
             </div>
-    </div>;
+    </div>
 }
 
 export default Login;
