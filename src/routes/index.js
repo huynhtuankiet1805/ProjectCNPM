@@ -37,7 +37,7 @@ const publicRoutes = [
         path: '/order',
         component: Order,
     },
-    // http://localhost:3000/manageorder
+    // http://localhost:3000/test
     {
         path: '/manageorder',
         component: ManageOrder,

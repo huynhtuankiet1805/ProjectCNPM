@@ -14,7 +14,7 @@ function Footer() {
             </div>
             <div className="col-xl-5 content-footer">
                 <h3>Hệ thống website đặt món ăn NOBORE</h3>
-                <img src={require("~/image/Logo.png")} alt="Logo" />
+                <img src={require("~/image/logo.png")} alt="Logo" />
             </div>
             <div className="col-xl-auto info-company">
                 <h3>Địa chỉ công ty</h3>
@@ -30,3 +30,4 @@ function Footer() {
 }
 
 export default Footer;
+
