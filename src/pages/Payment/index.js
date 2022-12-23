@@ -26,16 +26,11 @@ function Payment() {
                 <div className='col-xl-8 fourthinfo'>
                     <div>
                         <p>Thêm voucher</p>
-                        <div class="dropdown">
-                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Chọn voucher
-                            </button>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </div>
+                        <select name="Chọn voucher" id="">
+                            <option value="voucher0">Không</option>
+                            <option value="voucher1">Voucher 1 - giảm 5%</option>
+                            <option value="voucher2">Voucher 2 - giảm 10%</option>
+                        </select>
                     </div>
                     <div>
                         <p>Thời gian giao đơn</p>

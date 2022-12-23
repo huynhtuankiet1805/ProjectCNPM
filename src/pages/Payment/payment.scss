@@ -1,6 +1,7 @@
 .wrap-info-payment {
     margin: 2rem;
     border: 2px solid black;
+    font-size: 1.2rem;
 }
 
 // For class info-text
@@ -31,13 +32,13 @@
     display: inline-block;
 }
 .firstinfo input {
-    width: 70%;
+    width: 65%;
 }
 .secondinfo input {
-    width: 71%;
+    width: 60%;
 }
 .thirdinfo input {
-    width: 86%;
+    width: 81.2%;
 }
 .fourthinfo .btn {
     background-color: white;
@@ -54,6 +55,10 @@
     width: 7rem;
     height: 2.5rem;
     background-color: white;
+}
+.fourthinfo select {
+    height: 2.5rem;
+    text-align: center;
 }
 // For class detail-payment
 .detail-payment {
@@ -85,6 +90,7 @@
 }
 .ord .price {
     margin: auto;
+    font-size: 1.8rem;
     text-align: right;
 }
 // For class detail-money
@@ -94,7 +100,7 @@
 }
 .detail-money p {
     margin: 2rem;
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 #txtsum {
     font-weight: bold;
