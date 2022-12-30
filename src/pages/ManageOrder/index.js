@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import Header from '~/components/Layout/DefaultLayout/Header';
 import styles from './manageorder.module.scss';
 import SideBar from './SideBar';
@@ -11,32 +10,22 @@ import Cancelled from './Cancelled';
 
 function Manageorder() {
 
-    return (
-      <div class={styles.wrapper}>
-        <div class={styles.container}>
-      <Title/>
-      <div class={styles.content}>
-      <SideBar/>
+  return (
+    <div class={styles.wrapper}>
+      <div class={styles.container}>
+        <Title />
+        <div class={styles.content}>
+          <SideBar />
 
-{/* link route từ sidebar tại đây */}
+          {/* link route từ sidebar tại đây */}
 
-      <Cancelled/>
+          <Cancelled />
 
+        </div>
       </div>
-      </div>
-      </div>
-      
+    </div>
 
-    );
+
+  );
 }
-
-=======
-import './manageorder.scss'
-function Manageorder() {
-    return <div>
-        <h2> Trang manage order ở đây</h2>
-    </div>;
-}
-
->>>>>>> 4cf48ca37fa10b55ad4e55fd97a5579daaf29839
 export default Manageorder;
