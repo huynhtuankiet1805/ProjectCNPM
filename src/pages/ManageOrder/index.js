@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import Header from '~/components/Layout/DefaultLayout/Header';
 import styles from './manageorder.module.scss';
 import SideBar from './SideBar';
@@ -29,4 +30,13 @@ function Manageorder() {
     );
 }
 
+=======
+import './manageorder.scss'
+function Manageorder() {
+    return <div>
+        <h2> Trang manage order ở đây</h2>
+    </div>;
+}
+
+>>>>>>> 4cf48ca37fa10b55ad4e55fd97a5579daaf29839
 export default Manageorder;

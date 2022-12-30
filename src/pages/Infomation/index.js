@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import Header from '~/components/Layout/DefaultLayout/Header';
 import Avatar from './Avatar';
 import Form from './Form';
@@ -16,4 +17,13 @@ function Information() {
     </div>);
 }
 
+=======
+import './info.scss'
+function Information() {
+    return <div>
+        <h2> Trang information ở đây</h2>
+    </div>;
+}
+
+>>>>>>> 4cf48ca37fa10b55ad4e55fd97a5579daaf29839
 export default Information;
