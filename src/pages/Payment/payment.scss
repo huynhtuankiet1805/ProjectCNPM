@@ -80,7 +80,7 @@
 }
 .ord img {
     width: 25rem;
-    height: 15rem;
+    height: 20rem;
 }
 .ord .ordname {
     margin: 10%;
@@ -101,6 +101,9 @@
     width: 70%;
     display: flex;
     flex-direction: row;
+}
+.ord-detail-wrap > div {
+    width: 70%;
 }
 // For class detail-money
 .detail-money {
@@ -148,6 +151,9 @@
     color: white;
     border-radius: 5px;
 }
+textarea {
+    padding: 0.5rem;
+}
 // Responsive
 // Ipad
 @media all and (max-width: 1024px) {
@@ -194,6 +200,9 @@
         text-align: right;
         margin-right: 1rem;
     }
+    .ord-detail-wrap > div {
+        width: 100%;
+    }
 }
 // // Smartphone
 @media all and (max-width: 576px) {
@@ -219,7 +228,7 @@
     }
     .fourthinfo input[type='submit'] {
         margin-right: 0;
-        margin-left: 0.5rem;
+        margin-left: 0.4rem;
     }
     .fourthinfo + .col-xl {
         margin-left: 4%;

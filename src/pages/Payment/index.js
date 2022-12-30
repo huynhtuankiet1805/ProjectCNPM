@@ -9,17 +9,17 @@ function Payment() {
             <div className='row'>
                 <div className='col-xl-7 firstinfo'>
                     <p>Tên người nhận</p>
-                    <input type="text" class="form-control sametext" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping"></input>
+                    <input type="text" class="form-control sametext" placeholder="Họ và tên" aria-label="Username" aria-describedby="addon-wrapping"></input>
                 </div>
                 <div className='col-xl-5 secondinfo'>
                     <p>Số điện thoại</p>
-                    <input type="text" class="form-control sametext" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping"></input>
+                    <input type="text" class="form-control sametext" placeholder="Số điện thoại" aria-label="Username" aria-describedby="addon-wrapping"></input>
                 </div>
             </div>
             <div className='row'>
                 <div className='thirdinfo'>
                     <p>Địa chỉ giao hàng</p>
-                    <input type="text" class="form-control sametext" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping"></input>
+                    <input type="text" class="form-control sametext" placeholder="Địa chỉ giao hàng" aria-label="Username" aria-describedby="addon-wrapping"></input>
                 </div>
             </div>
             <div className='row'>
