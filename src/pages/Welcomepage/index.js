@@ -221,7 +221,7 @@ function Home() {
 
 			<section id="contact" className="contact">
 				<div className="section-heading text-center">
-					<h2>contact me</h2>
+					<h2>LIÊN HỆ VỚI TÔI NẾU CHÚNG TA CHUNG ĐAM MÊ</h2>
 				</div>
 				<div className="container">
 					<div className="contact-content">

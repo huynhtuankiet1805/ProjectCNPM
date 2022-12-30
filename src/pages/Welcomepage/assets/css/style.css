@@ -52,16 +52,15 @@ ul li {
 	list-style: none;
 	
 }
-select,input,textarea,button{box-shadow:none;outline:0!important;}
-button {
+.order-about .order-about-btn{
     background: transparent;border: 0;
     font-size: 20px;
     padding: 10px 11px;
     background-color: #fff;
     color: #000;
-}
+} 
 
-button:hover{
+.order-about .order-about-btn:hover{
     cursor: pointer;
     background: #e1dad9;
 }
