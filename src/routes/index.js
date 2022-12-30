@@ -1,5 +1,5 @@
 // Pages
-import Home from '~/pages/Welcomepage';
+import Home from '~/pages/Welcomepage'
 import Login from '~/pages/Login'
 import Info from '~/pages/Infomation'
 import ManageMenu from '~/pages/ManageMenu'
