@@ -103,6 +103,9 @@
 }
 // // Smartphone
 @media all and (max-width: 576px) {
+    .wrap-header {
+        width: 80%;
+    }
     .logo {
         margin-left: 5%;
     }
