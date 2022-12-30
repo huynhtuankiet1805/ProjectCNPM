@@ -2,7 +2,7 @@ import "./footer.scss"
 function Footer() {
     return <div className="container-fluid">
         <div className="row wrap-footer">
-            <div className="col-xl-3 describe">
+            <div className="col-xl-4 describe">
                 <h3>Công ty</h3>
                 <a href="#">Giới thiệu</a> <br />
                 <a href="#">Trung tâm trợ giúp</a> <br />
@@ -12,7 +12,7 @@ function Footer() {
                 <a href="#">Giải quyết khiếu nại</a> <br />
                 <a href="#">Đăng ký quán</a>
             </div>
-            <div className="col-xl-5 content-footer">
+            <div className="col-xl-4 content-footer">
                 <h3>Hệ thống website đặt món ăn NOBORE</h3>
                 <img src={require("~/image/Logo.png")} alt="Logo" />
             </div>

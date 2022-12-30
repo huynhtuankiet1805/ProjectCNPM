@@ -48,6 +48,7 @@
 }
 .detail-info {
     width: 230px;
+    margin-top: 5%;
 }
 .info img {
     width: 3rem;
@@ -58,6 +59,10 @@
     width: 10rem;
     font-size: 1.3rem;
     font-weight: bold;
+}
+.btn-group button {
+    background-color: white;
+    border-color: white;
 }
 // For class bt-cart
 .wrap-header div.bt-cart {
@@ -97,8 +102,11 @@
     }
     .more .btn {
         font-size: 1.3rem;
+        margin-top: -5%;
     }
     .detail-info {
+        margin-top: 5%;
+        margin-left: 15%;
         display: flex;
     }
     .bt-cart-xs {
