@@ -1,9 +1,9 @@
 import './login.scss'
-import Logo_Nobore from "~image/logo_nobore"
+import Logo_Nobore from "~/image/logo_nobore";
 function Login() {
     return <div id="login-page">
         <div id="img-login-res">
-              <img src="Logo_Nobore.image" height="200px" width="251px" alt="">
+              <img src={Logo_Nobore.image} height="200px" width="251px" alt=""/>
             </div>
             <div class="form">
               <form id="login-form">
