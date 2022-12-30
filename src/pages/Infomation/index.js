@@ -16,5 +16,4 @@ function Information() {
     </div>);
 }
 
-
 export default Information;

@@ -1,5 +1,5 @@
 // Pages
-import Home from '~/pages/Welcomepage';
+import Home from '~/pages/Welcomepage'
 import Login from '~/pages/Login'
 import Info from '~/pages/Infomation'
 import ManageMenu from '~/pages/ManageMenu'
@@ -15,6 +15,7 @@ const publicRoutes = [
     {
         path: '/',
         component: Home,
+        layout: null,
     },
     // http://localhost:3000/login
     {
@@ -38,16 +39,17 @@ const publicRoutes = [
         path: '/order',
         component: Order,
     },
-    // http://localhost:3000/manageorder
+    // http://localhost:3000/test
     {
         path: '/manageorder',
         component: ManageOrder,
-        layout: OnlyHeader
     },
+
     {
         path: '/manageorder/orderlist',
         component: OrderList,
     },
+
 
     // http://localhost:3000/payment
     {
