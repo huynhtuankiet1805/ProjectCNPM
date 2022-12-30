@@ -3,7 +3,7 @@ function Header() {
     return (
         <div class="container-fluid">
             <div className="row wrap-header">
-                <div className="col-xl-3 col-md-4 logo">
+                <div className="col-xl-3 col-md-3 logo">
                     <img src={require("~/image/logo.png")} alt="Logo" />
                     <p>NOBORE</p>
                 </div>

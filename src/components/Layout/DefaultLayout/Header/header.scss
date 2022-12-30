@@ -40,7 +40,7 @@
     display: flex;
 }
 .info {
-    margin-left: 2%;
+    margin-left: 1%;
 }
 .detail-info {
     width: 230px;
@@ -75,15 +75,21 @@
     display: none;
 }
 // Responsive
-@media only screen and (max-width: 992px) {
-    .dr-location,
+// Ipad
+@media all and (max-width: 1024px) {
     .bt-cart,
-    .homeopt {
+    .homeopt,
+    .dr-location {
         display: none;
+    }
+    .wrap-header {
+        width: 100%;
+        margin-left: 5%;
+        margin-bottom: 5%;
     }
     .more {
         display: block;
-        margin-left: 5%;
+        margin-left: 10%;
     }
     .more .btn {
         font-size: 1.3rem;
@@ -91,30 +97,21 @@
     .detail-info {
         display: flex;
     }
-    .info {
-        margin-left: 0;
-    }
     .bt-cart-xs {
         display: block;
     }
 }
-// Smartphone
-@media only screen and (max-width: 576px) {
-    .wrap-header,
-    .bt-cart-xs {
-        display: block;
+// // Smartphone
+@media all and (max-width: 576px) {
+    .logo {
+        margin-left: 5%;
     }
-    .info {
-        margin: 10% 5%;
-    }
-    .detail-info {
-        display: flex;
-    }
-    .bt-cart,
-    .homeopt,
-    .dr-location,
     .more {
         display: none;
+    }
+    .info {
+        margin-top: 10%;
+        margin-bottom: 10%;
     }
     .bt-cart-xs {
         margin-left: 25%;

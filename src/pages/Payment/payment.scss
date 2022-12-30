@@ -1,5 +1,4 @@
 .wrap-info-payment {
-    margin: 2rem;
     border: 2px solid black;
     font-size: 1.2rem;
 }
@@ -16,7 +15,6 @@
     padding-top: 1.5rem;
     margin-left: 10%;
 }
-
 // For class info-content
 .info-content {
     border-top: 16px solid rgb(178, 173, 173);
@@ -32,13 +30,14 @@
     display: inline-block;
 }
 .firstinfo input {
-    width: 65%;
+    margin-left: 2%;
+    width: 70%;
 }
 .secondinfo input {
-    width: 60%;
+    width: 65%;
 }
 .thirdinfo input {
-    width: 81.2%;
+    width: 80%;
 }
 .fourthinfo .btn {
     background-color: white;
@@ -57,6 +56,7 @@
     background-color: white;
 }
 .fourthinfo select {
+    margin-left: 4%;
     height: 2.5rem;
     text-align: center;
 }
@@ -70,8 +70,9 @@
     overflow-y: scroll;
     height: 500px;
 }
-.ord .row {
+.ord-detail {
     margin: 1.5rem;
+    display: flex;
 }
 .ord p {
     font-size: 2rem;
@@ -81,21 +82,29 @@
     height: 15rem;
 }
 .ord .ordname {
-    margin-top: 3%;
+    margin: 10%;
     font-size: 1.8rem;
     font-weight: bold;
 }
 .ord .ordamount {
     font-size: 1.5rem;
+    margin: 10%;
 }
 .ord .price {
+    width: 100%;
     margin: auto;
     font-size: 1.8rem;
     text-align: right;
 }
+.ord-detail-wrap {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+}
 // For class detail-money
 .detail-money {
     margin: 1rem;
+    display: flex;
     font-size: 1.5rem;
 }
 .detail-money p {
@@ -105,10 +114,10 @@
 #txtsum {
     font-weight: bold;
 }
-.detail-money .col-xl {
-    border-top: 5px solid black;
+.detail-money .col-xl-1 {
+    width: 15%;
     text-align: right;
-    margin-right: 2rem;
+    margin-right: 1rem;
 }
 // For class select-payment
 .select-payment div {
@@ -137,4 +146,102 @@
     font-weight: bold;
     color: white;
     border-radius: 5px;
+}
+// Responsive
+// Ipad
+@media all and (max-width: 1024px) {
+    .info-text {
+        font-size: 1rem;
+    }
+    .sametext {
+        float: right;
+    }
+    .firstinfo input,
+    .secondinfo input,
+    .thirdinfo input {
+        width: 70%;
+        border: 1px solid black;
+    }
+    .fourthinfo select {
+        margin-left: 5%;
+    }
+    .col-xl textarea {
+        width: 100%;
+    }
+    .ord img {
+        width: 25rem;
+        height: 20rem;
+    }
+    .ord-detail-wrap {
+        flex-direction: column;
+    }
+    .ord .price {
+        text-align: left;
+        margin-left: 10%;
+    }
+    .detail-money {
+        flex-direction: row;
+    }
+}
+// // Smartphone
+@media all and (max-width: 576px) {
+    .info-text .col-xl-auto {
+        display: none;
+    }
+    .firstinfo input,
+    .secondinfo input,
+    .thirdinfo input {
+        margin: 0;
+        width: 100%;
+        border: 1px solid black;
+    }
+    .fourthinfo select {
+        margin-left: 0;
+    }
+    .fourthinfo p {
+        margin-bottom: 0;
+    }
+    .fourthinfo input[type='text'] {
+        margin-right: 0;
+        margin-top: 0;
+    }
+    .fourthinfo input[type='submit'] {
+        margin-right: 0;
+        margin-left: 0.5rem;
+    }
+    #btYes,
+    #btNo {
+        font-size: 0.8rem;
+        width: 3.5rem;
+    }
+    .ord-detail {
+        flex-direction: column;
+    }
+    .ord img {
+        width: 20rem;
+        height: 14rem;
+    }
+    .ord-detail-wrap {
+        width: 100%;
+        text-align: center;
+    }
+    .ord-detail-wrap .price {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .select-payment {
+        display: none;
+    }
+    .detail-money {
+        margin: 0;
+    }
+    .detail-money p {
+        font-size: 1.5rem;
+    }
+    .detail-money .col-4 p {
+        margin-left: 0;
+    }
+    .fourthinfo + .col-xl {
+        margin-top: 5%;
+    }
 }

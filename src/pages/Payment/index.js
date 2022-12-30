@@ -9,17 +9,17 @@ function Payment() {
             <div className='row'>
                 <div className='col-xl-7 firstinfo'>
                     <p>Tên người nhận</p>
-                    <input type="text" name='fullname' />
+                    <input type="text" class="form-control sametext" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping"></input>
                 </div>
-                <div className='col-xl secondinfo'>
+                <div className='col-xl-5 secondinfo'>
                     <p>Số điện thoại</p>
-                    <input type="text" name='phone' />
+                    <input type="text" class="form-control sametext" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping"></input>
                 </div>
             </div>
             <div className='row'>
                 <div className='thirdinfo'>
                     <p>Địa chỉ giao hàng</p>
-                    <input type="text" name='address' />
+                    <input type="text" class="form-control sametext" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping"></input>
                 </div>
             </div>
             <div className='row'>
@@ -39,8 +39,8 @@ function Payment() {
                     </div>
                     <div>
                         <p>Lấy dụng cụ ăn uống</p>
-                        <input type="submit" name='btYes' value="Có" />
-                        <input type="submit" name='btNo' value="Không" />
+                        <input type="submit" name='btYes' value="Có" id='btYes' />
+                        <input type="submit" name='btNo' value="Không" id='btNo' />
                     </div>
                 </div>
                 <div className='col-xl'>
@@ -50,41 +50,51 @@ function Payment() {
         </div>
         <div className='row detail-payment'>
             <div className='ord'>
-                <div className='row' id='ord1'>
-                    <img src={require("~/image/bundau.jpg")} alt="monan" className='col-xl-4' />
-                    <div className='col-xl-6'>
-                        <p className='ordname' id='ordname1'>Bún đậu mém tum</p>
-                        <p className='ordamount' id='ordamount1'>Số lượng: 2</p>
+                <div className='ord-detail' id='ord1'>
+                    <img src={require("~/image/bundau.jpg")} alt="monan" />
+                    <div className="ord-detail-wrap">
+                        <div>
+                            <p className='ordname' id='ordname1'>Bún đậu mém tum</p>
+                            <p className='ordamount' id='ordamount1'>Số lượng: 2</p>
+                        </div>
+                        <p id='price1' className="price">96.000đ</p>
                     </div>
-                    <p id='price1' className="col-xl price">96.000đ</p>
 
                 </div>
-                <div className='row' id='ord2'>
-                    <img src={require("~/image/bundau.jpg")} alt="monan" className='col-xl-4' />
-                    <div className='col-xl-6'>
-                        <p className='ordname'>Bún đậu mém tum</p>
-                        <p className='ordamount'>Số lượng: 2</p>
+                <div className='ord-detail' id='ord2'>
+                    <img src={require("~/image/bundau.jpg")} alt="monan" />
+                    <div className="ord-detail-wrap">
+                        <div>
+                            <p className='ordname' id='ordname2'>Bún đậu mém tum</p>
+                            <p className='ordamount' id='ordamount2'>Số lượng: 2</p>
+                        </div>
+                        <p id='price2' className="price">96.000đ</p>
                     </div>
-                    <p id='price2' className="col-xl price">96.000đ</p>
 
                 </div>
-                <div className='row' id='ord3'>
-                    <img src={require("~/image/bunmam.jpg")} alt="monan" className='col-xl-4' />
-                    <div className='col-xl-6'>
-                        <p className='ordname'>Pún mém</p>
-                        <p className='ordamount'>Số lượng: 1</p>
+                <div className='ord-detail' id='ord3'>
+                    <img src={require("~/image/bunmam.jpg")} alt="monan" />
+                    <div className="ord-detail-wrap">
+                        <div>
+                            <p className='ordname' id='ordname3'>Pún mém mém</p>
+                            <p className='ordamount' id='ordamount3'>Số lượng: 1</p>
+                        </div>
+                        <p id='price3' className="price">30.000đ</p>
                     </div>
-                    <p id='price2' className="col-xl price">30.000đ</p>
 
                 </div>
             </div>
 
+            <div class="text-success">
+                <hr />
+            </div>
+
             <div className='row detail-money'>
-                <div className='col-xl-8'>
+                <div className='col-xl-10 col-md-7 col-8'>
                     <p>Phí giao hàng</p>
                     <p id='txtsum'>Tổng tiền</p>
                 </div>
-                <div className='col-xl'>
+                <div className='col-xl-1 col-md-5 col-4'>
                     <p className='fee'>18.000đ</p>
                     <p className='total'>240.000đ</p>
                 </div>
