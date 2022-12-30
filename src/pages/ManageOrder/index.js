@@ -1,6 +1,6 @@
 import Header from '~/components/Layout/DefaultLayout/Header';
 import styles from './manageorder.module.scss';
-import SideBar from './SideBar';
+import SideBar from '../../components/SideBar';
 import Title from './Tittle';
 import OrderList from './OrderList';
 import Delivery from './Delivery';
