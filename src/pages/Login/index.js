@@ -6,7 +6,7 @@ function Login() {
       <img src={Logo_Nobore.image} height="200px" width="251px" alt="" />
     </div>
     <div class="form">
-      <form id="login-form">
+      <form id="login-form" action="http://localhost:3000/order">
         <div class="input-login">
           <input type="text" placeholder="TÊN ĐĂNG NHẬP" />
           <i class="user-icon ti-user"></i>

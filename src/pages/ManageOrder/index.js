@@ -24,8 +24,6 @@ function Manageorder() {
         </div>
       </div>
     </div>
-
-
   );
 }
 export default Manageorder;

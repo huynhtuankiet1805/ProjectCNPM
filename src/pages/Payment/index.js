@@ -1,5 +1,74 @@
+import { click } from '@testing-library/user-event/dist/click';
 import './payment.scss'
+
 function Payment() {
+    const RedirectFeedback = () => {
+        window.location = "http://localhost:3000/payment/feedback";
+    }
+    function runYes() {
+        var btYes = document.getElementById("btYes");
+        var btNo = document.getElementById("btNo");
+        if (btYes.style.backgroundColor == "gray") {
+            btYes.style.backgroundColor = "white";
+            btYes.style.color = "black";
+            btYes.style.fontWeight = "normal";
+        } else {
+            btYes.style.backgroundColor = "gray";
+            btYes.style.color = "white";
+            btYes.style.fontWeight = "bold";
+            btNo.style.backgroundColor = "white";
+            btNo.style.color = "black";
+            btNo.style.fontWeight = "normal";
+        }
+    }
+    function runNo() {
+        var btYes = document.getElementById("btYes");
+        var btNo = document.getElementById("btNo");
+        if (btNo.style.backgroundColor == "gray") {
+            btNo.style.backgroundColor = "white";
+            btNo.style.color = "black";
+            btNo.style.fontWeight = "normal";
+        } else {
+            btNo.style.backgroundColor = "gray";
+            btNo.style.color = "white";
+            btNo.style.fontWeight = "bold";
+            btYes.style.backgroundColor = "white";
+            btYes.style.color = "black";
+            btYes.style.fontWeight = "normal";
+        }
+    }
+    function runPaytt() {
+        var paytt = document.getElementById("paytt");
+        var paygt = document.getElementById("paygt");
+        if (paytt.style.backgroundColor == "gray") {
+            paytt.style.backgroundColor = "white";
+            paytt.style.color = "black";
+            paytt.style.fontWeight = "normal";
+        } else {
+            paytt.style.backgroundColor = "gray";
+            paytt.style.color = "white";
+            paytt.style.fontWeight = "bold";
+            paygt.style.backgroundColor = "white";
+            paygt.style.color = "black";
+            paygt.style.fontWeight = "normal";
+        }
+    }
+    function runPaygt() {
+        var paytt = document.getElementById("paytt");
+        var paygt = document.getElementById("paygt");
+        if (paygt.style.backgroundColor == "gray") {
+            paygt.style.backgroundColor = "white";
+            paygt.style.color = "black";
+            paygt.style.fontWeight = "normal";
+        } else {
+            paygt.style.backgroundColor = "gray";
+            paygt.style.color = "white";
+            paygt.style.fontWeight = "bold";
+            paytt.style.backgroundColor = "white";
+            paytt.style.color = "black";
+            paytt.style.fontWeight = "normal";
+        }
+    }
     return <div className='container wrap-info-payment'>
         <div className='row info-text'>
             <p className='col-xl-10'>Thông tin thanh toán đơn hàng</p>
@@ -34,13 +103,13 @@ function Payment() {
                     </div>
                     <div>
                         <p>Thời gian giao đơn</p>
-                        <input type="text" value="Giao ngày ..." disabled />
+                        <input type="text" value="Giao ngày 01/01/2022" disabled />
                         <input type="submit" value="Thay đổi" />
                     </div>
                     <div>
                         <p>Lấy dụng cụ ăn uống</p>
-                        <input type="submit" name='btYes' value="Có" id='btYes' />
-                        <input type="submit" name='btNo' value="Không" id='btNo' />
+                        <input type="submit" name='btYes' value="Có" id='btYes' onClick={runYes} />
+                        <input type="submit" name='btNo' value="Không" id='btNo' onClick={runNo} />
                     </div>
                 </div>
                 <div className='col-xl'>
@@ -103,14 +172,14 @@ function Payment() {
             <div className='row select-payment'>
                 <div>
                     <p>Phương thức thanh toán</p>
-                    <input type="submit" value="Thanh toán trực tuyến" />
-                    <input type="submit" value="Thanh toán khi nhận hàng" />
+                    <input type="submit" value="Thanh toán trực tuyến" id='paytt' onClick={runPaytt} />
+                    <input type="submit" value="Thanh toán khi nhận hàng" id='paygt' onClick={runPaygt} />
                 </div>
             </div>
         </div>
         <div className='row'>
             <div className='towrap'>
-                <input type="submit" value="XÁC NHẬN" className='submit-payment' />
+                <input type="submit" value="XÁC NHẬN" className='submit-payment' onClick={RedirectFeedback} />
             </div>
         </div>
     </div>;
