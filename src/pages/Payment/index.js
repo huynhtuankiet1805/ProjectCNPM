@@ -90,11 +90,11 @@ function Payment() {
             </div>
 
             <div className='row detail-money'>
-                <div className='col-xl-10 col-md-7 col-8'>
+                <div className='col-xl-10 col-md-7 col-7'>
                     <p>Phí giao hàng</p>
                     <p id='txtsum'>Tổng tiền</p>
                 </div>
-                <div className='col-xl-1 col-md-5 col-4'>
+                <div className='col-xl-1 col-md-5 col-5'>
                     <p className='fee'>18.000đ</p>
                     <p className='total'>240.000đ</p>
                 </div>
