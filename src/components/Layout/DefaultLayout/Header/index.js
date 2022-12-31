@@ -35,8 +35,8 @@ function Header() {
                     </div>
                 </div>
                 <div className="col-xl-auto homeopt">
-                    <a href="#" className="food">Đồ ăn</a>
-                    <a href="#" className="trendy">Bán chạy</a>
+                    <a href="http://localhost:3000/order" className="food">Đồ ăn</a>
+                    <a href="http://localhost:3000/order" className="trendy">Bán chạy</a>
                     <a href="http://localhost:3000/" className="aboutus">Về chúng tôi</a>
                     <a href="http://localhost:3000/" className="help">Hỗ trợ</a>
                     <svg xmlns="http://www.w3.org/2000/svg" width="5rem" height="1.8rem" fill="currentColor" className="bi bi-search" viewBox="0 0 16 16">
@@ -45,10 +45,10 @@ function Header() {
                 </div>
                 <div className="col-xl-auto col-md-auto info">
                     <div className="detail-info">
-                        <img src={require("~/image/avatar2.jpg")} alt="avatar" />
+                        <img src="https://upload.wikimedia.org/wikipedia/vi/a/a7/Happier_Than_Ever.jpeg" alt="avatar" />
                         <div className="btn-group">
                             <button type="button" className="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                Username
+                                Thiên Băng
                             </button>
                             <ul className="dropdown-menu dropdown-menu-end">
                                 <li><a className="dropdown-item" href="http://localhost:3000/infomation">Thông tin cá nhân</a></li>
