@@ -4,6 +4,10 @@ import Login from '~/pages/Login'
 import Info from '~/pages/Infomation'
 import ManageOrder from '~/pages/ManageOrder'
 import OrderList from '~/pages/ManageOrder/OrderList'
+import WaitingVerify from '~/pages/ManageOrder/WaitingVerify'
+import Delivery from '~/pages/ManageOrder/Delivery'
+import Deliveried from '~/pages/ManageOrder/Deliveried'
+import Cancelled from '~/pages/ManageOrder/Cancelled'
 import Order from '~/pages/Orderfood'
 import Payment from '~/pages/Payment'
 import Feedback from '~/pages/Feedback'
@@ -38,13 +42,34 @@ const publicRoutes = [
     {
         path: '/manageorder',
         component: ManageOrder,
+        layout: null
     },
 
     {
         path: '/manageorder/orderlist',
         component: OrderList,
+        layout: ManageOrder
     },
-
+    {
+        path: '/manageorder/waitingverify',
+        component: WaitingVerify,
+        layout: ManageOrder
+    },
+    {
+        path: '/manageorder/delivery',
+        component: Delivery,
+        layout: ManageOrder
+    },
+    {
+        path: '/manageorder/deliveried',
+        component: Deliveried,
+        layout: ManageOrder
+    },
+    {
+        path: '/manageorder/cancelled',
+        component: Cancelled,
+        layout: ManageOrder
+    },
 
     // http://localhost:3000/payment
     {

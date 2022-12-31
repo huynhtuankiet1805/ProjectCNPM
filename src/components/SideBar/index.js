@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from'react-router-dom'
 //import "antd/dist/antd.css";
 import './SideBar.scss'
 import { Menu } from 'antd';
@@ -23,11 +24,34 @@ export default function SideBar() {
           <Menu.Item key="1.5">Chỉnh sửa</Menu.Item>
         </SubMenu>
         <SubMenu key="2" title="QUẢN LÝ ĐƠN HÀNG">
-          <Menu.Item key="2.1">Danh sách đơn</Menu.Item>
-          <Menu.Item key="2.2">Chờ xác nhận</Menu.Item>
-          <Menu.Item key="2.3">Đang giao</Menu.Item>
-          <Menu.Item key="2.4">Đã giao</Menu.Item>
-          <Menu.Item key="2.5">Đã hủy</Menu.Item>
+          <Menu.Item key="2.1">
+          <Link to="/manageorder/orderlist">
+            {/* <Icon type="fire" /> */}
+            <span>Danh sách đơn</span>
+          </Link></Menu.Item>
+
+          <Menu.Item key="2.2">
+          <Link to="/manageorder/waitingverify">
+            {/* <Icon type="fire" /> */}
+            <span>Chờ xác nhận</span>
+          </Link></Menu.Item>
+
+          <Menu.Item key="2.3">
+          <Link to="/manageorder/delivery">
+            {/* <Icon type="fire" /> */}
+            <span>Đang giao</span>
+          </Link></Menu.Item>
+          <Menu.Item key="2.4">
+          <Link to="/manageorder/deliveried">
+            {/* <Icon type="fire" /> */}
+            <span>Đã giao</span>
+          </Link></Menu.Item>
+
+          <Menu.Item key="2.5">
+          <Link to="/manageorder/cancelled">
+            {/* <Icon type="fire" /> */}
+            <span>Đã hủy</span>
+          </Link></Menu.Item>
         </SubMenu>
         <Menu.Item key="3">Tin nhắn</Menu.Item>
       </Menu>
