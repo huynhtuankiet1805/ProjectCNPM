@@ -34,7 +34,7 @@ function Header() {
                         </ul>
                     </div>
                 </div>
-                <div className="col-xl-auto homeopt">
+                <div className="col-xl-5 homeopt">
                     <a href="http://localhost:3000/order" className="food">Đồ ăn</a>
                     <a href="http://localhost:3000/order" className="trendy">Bán chạy</a>
                     <a href="http://localhost:3000/" className="aboutus">Về chúng tôi</a>

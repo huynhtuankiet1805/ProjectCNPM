@@ -4,6 +4,9 @@
     align-items: center;
     margin-bottom: 1rem;
 }
+.wrap-header {
+    width: 100%;
+}
 .info {
     margin-top: 1rem;
 }
@@ -31,10 +34,10 @@
 // For class homeopt
 .wrap-header div.homeopt {
     margin-right: 0;
-    margin-left: 4rem;
+    margin-left: 2%;
 }
 .homeopt a {
-    margin-right: 3rem;
+    margin-right: 5%;
     font-size: 1.5rem;
     text-decoration: none;
     color: #000000;
@@ -43,9 +46,6 @@
 .wrap-header div.info {
     margin-right: 0;
     display: flex;
-}
-.info {
-    margin-left: 1%;
 }
 .detail-info {
     width: 230px;
@@ -68,6 +68,7 @@
 // For class bt-cart
 .wrap-header div.bt-cart {
     margin-right: 0;
+    margin-top: 1rem;
 }
 .bt-cart button,
 .bt-cart-xs button {
