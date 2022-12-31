@@ -22,11 +22,11 @@ function Manageorder({ children }) {
           <SideBar />
 
           {/* link route từ sidebar tại đây */}
-          { children }
+          {children}
 
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

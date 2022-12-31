@@ -5,8 +5,8 @@ import './Info.scss';
 
 function Information() {
     return (<div>
-        
-            <Header />
+
+        <Header />
 
         <div class="container containerinfo">
             <Avatar />

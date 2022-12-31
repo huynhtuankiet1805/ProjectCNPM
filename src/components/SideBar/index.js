@@ -19,9 +19,15 @@ export default function SideBar() {
         mode="inline"
       >
         <SubMenu key="1" title="QUẢN LÝ MENU" >
-          <Menu.Item key="1.2">Tạo món mới</Menu.Item>
-          <Menu.Item key="1.3">Xóa món ăn</Menu.Item>
-          <Menu.Item key="1.5">Chỉnh sửa</Menu.Item>
+          <Menu.Item key="1.2"><Link to="/managemenu">
+            {/* <Icon type="fire" /> */}
+            <span>Menu Quán ăn</span>
+          </Link></Menu.Item>
+          <Menu.Item key="1.3"><Link to="/managemenu/editmenu">
+            {/* <Icon type="fire" /> */}
+            <span>Chỉnh sửa món ăn</span>
+          </Link></Menu.Item>
+          
         </SubMenu>
         <SubMenu key="2" title="QUẢN LÝ ĐƠN HÀNG">
           <Menu.Item key="2.1">
@@ -53,7 +59,10 @@ export default function SideBar() {
             <span>Đã hủy</span>
           </Link></Menu.Item>
         </SubMenu>
-        <Menu.Item key="3">Tin nhắn</Menu.Item>
+        <Menu.Item key="3"><Link to="/managemenu/chatbox">
+            {/* <Icon type="fire" /> */}
+            <span>Tin nhắn</span>
+          </Link></Menu.Item>
       </Menu>
     </div>
     </div>

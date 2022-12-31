@@ -2,6 +2,9 @@
 import Home from '~/pages/Welcomepage'
 import Login from '~/pages/Login'
 import Info from '~/pages/Infomation'
+import ManageMenu from '~/pages/ManageOrder/ManageMenu/Content'
+import EditMenu from '~/pages/ManageOrder/ManageMenu/CreateNewFood'
+import ChatBox from '~/pages/ManageOrder/ManageMenu/Chat'
 import ManageOrder from '~/pages/ManageOrder'
 import OrderList from '~/pages/ManageOrder/OrderList'
 import WaitingVerify from '~/pages/ManageOrder/WaitingVerify'
@@ -39,6 +42,21 @@ const publicRoutes = [
         component: Order,
     },
     // http://localhost:3000/test
+    {
+        path: '/managemenu',
+        component: ManageMenu,
+        layout: ManageOrder
+    },
+    {
+        path: '/managemenu/editmenu',
+        component: EditMenu,
+        layout: ManageOrder
+    },
+    {
+        path: '/managemenu/chatbox',
+        component: ChatBox,
+        layout: ManageOrder
+    },
     {
         path: '/manageorder',
         component: ManageOrder,
