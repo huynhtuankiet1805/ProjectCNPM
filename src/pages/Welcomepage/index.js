@@ -92,20 +92,20 @@ function Home() {
 								<div className="row">
 									<div className="col-sm-4">
 										<div className="single-about-add-info">
-											<h3>phone</h3>
-											<p>987-123-6547</p>
+											<h3>Số điện thoại</h3>
+											<p>0123456789</p>
 										</div>
 									</div>
 									<div className="col-sm-4">
 										<div className="single-about-add-info">
 											<h3>email</h3>
-											<p>browny@info.com</p>
+											<p>mebongda@gmail.com</p>
 										</div>
 									</div>
 									<div className="col-sm-4">
 										<div className="single-about-add-info">
 											<h3>website</h3>
-											<p>www.brownsine.com</p>
+											<p>www.mebongda.com</p>
 										</div>
 									</div>
 								</div>
