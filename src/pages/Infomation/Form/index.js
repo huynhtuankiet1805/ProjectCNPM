@@ -2,7 +2,7 @@ import './Form.scss'
 import FormItem from "./FormItem";
 function FormInfo() {
     return (
-        <div class="wrapper">
+        <div class="wrapper wrapperform">
         <p class="ttcn">Thông Tin Cá Nhân</p>
         <FormItem label="Họ và tên" placehoder="Họ và tên" value="Lãnh Hàn Thiên Băng"/>
         <FormItem label="Email" placehoder="Họ và tên" value="hmmm@gmail.com"/>

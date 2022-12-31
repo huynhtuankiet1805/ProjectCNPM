@@ -8,7 +8,7 @@ function Information() {
         
             <Header />
 
-        <div class="container">
+        <div class="container containerinfo">
             <Avatar />
             <div class="Form"><Form /></div>
         </div>
