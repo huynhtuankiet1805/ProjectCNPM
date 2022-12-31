@@ -6,15 +6,15 @@ import categoryImg01 from './../../image/category1.png'
 import categoryImg02 from './../../image/category2.png'
 import categoryImg03 from './../../image/category3.png'
 import categoryImg04 from './../../image/category4.png'
-
+import './category.scss'
 const categoryData = [
     {
         display: 'Ngon Chuẩn Việt',
-        imgUrl: categoryImg01
+        imgUrl: categoryImg02
     },
     {
         display: 'Ăn Vặt Chiều',
-        imgUrl: categoryImg02
+        imgUrl: categoryImg01
     },
     {
         display: 'Cơm Nóng Sốt',

@@ -6,6 +6,9 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import BannerImg from './../../image/banner_img.jpg'
 import Category from '~/components/Category/category';
+import products from "./products";
+import Product from "../../components/Product/product";
+
 
 const Order = () => {
     return (
@@ -37,9 +40,39 @@ const Order = () => {
             </Container>
     </section>
     <br></br>
-    <section>
+    <section className= "pt-0">
             <Category />
     </section>
+    <section>
+        <Container>
+            <Row>
+                <Col lg = '12' className = "text-center">
+                    <br></br>
+                    <h2>Món Ngon Ăn Nhiều</h2>
+                </Col>
+                <br></br>
+                <Col lg = '12' >
+                    <div className = "food__category d-flex align-items-center justify-content-center gap-4">
+                    <button className = "al_btn foodBtnActive">Tất cả</button>
+                    <button className = " d-flex align-items-center gap-2"> Mới nhất</button> 
+                    <button className = " d-flex align-items-center gap-2">Gần tôi</button> 
+                    <button className = " d-flex align-items-center gap-2">
+                    Đã lưu</button> 
+                    </div>
+                </Col>
+                {
+                    products.map(item =>(
+                        <Col lg = '3' md = '4' key = {item.id} className = "mt-5">
+                            <Product item = {item}/>
+                        </Col>
+
+                    ))
+                }
+            </Row>
+        </Container>
+
+    </section>
+
     </React.Fragment>
 
     )
