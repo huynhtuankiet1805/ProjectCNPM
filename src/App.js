@@ -1,41 +1,29 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { publicRoutes } from '~/routes';
-import { DefaultLayout } from '~/components/Layout';
-import { Fragment } from 'react';
+import "./App.css";
+import SideMenu, { menuItems } from "./components/SideMenu";
 
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { useState } from "react";
+import Index from "./components/Index.js";
+/* -----------------------------------IMPORT SIDEMENU AND INDEX---------------------------------- */
 function App() {
-    return (
-        <Router>
-            <div className="App">
-                <Routes>
-                    {publicRoutes.map((route, index) => {
-                        // const Layout = route.layout === null ? Fragment : DefaultLayout;
-                        const Page = route.component;
+  const [inactive, setInactive] = useState(false);
 
-                        let Layout = DefaultLayout;
+  return (
+    <div className="App">
+      <Router>
+        <SideMenu
+          onCollapse={(inactive) => {
+            console.log(inactive);
+            setInactive(inactive);
+          }}
+        />
 
-                        if (route.layout) {
-                            Layout = route.layout;
-                        } else if (route.layout === null) {
-                            Layout = Fragment;
-                        }
-
-                        return (
-                            <Route
-                                key={index}
-                                path={route.path}
-                                element={
-                                    <Layout>
-                                        <Page />
-                                    </Layout>
-                                }
-                            />
-                        );
-                    })}
-                </Routes>
-            </div>
-        </Router>
-    );
+        <div className={`container ${inactive ? "inactive" : ""}`}>
+          <Index />
+        </div>
+      </Router>
+    </div>
+  );
 }
 
 export default App;
