@@ -15,7 +15,7 @@ export default function SideBar() {
       <Menu
         //defaultOpenKeys={['1']}
         defaultSelectedKeys={['1']}
-        style={{ width: 240 }}
+        style={{ width: 220 }}
         mode="inline"
       >
         <SubMenu key="1" title="QUẢN LÝ MENU" >

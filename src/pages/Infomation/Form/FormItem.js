@@ -1,10 +1,10 @@
-import styles from './Form.module.scss';
+import  './Form.scss';
 
 function FormItem({label, placeholder, value}) {
     return ( 
-        <div class={styles.item}>
-            <label class={styles.label}>{label}</label>
-            <input class={styles.inputBox} type="text" placeholder={placeholder} value={value}/>
+        <div class="item">
+            <label >{label}</label>
+            <input  type="text" placeholder={placeholder} value={value}/>
         </div>
      );
 }
