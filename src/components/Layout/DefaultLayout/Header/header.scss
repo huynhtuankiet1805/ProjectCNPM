@@ -99,7 +99,7 @@
     }
     .more {
         display: block;
-        margin-left: 10%;
+        margin-left: 15%;
     }
     .more .btn {
         font-size: 1.3rem;
@@ -107,7 +107,7 @@
     }
     .detail-info {
         margin-top: 5%;
-        margin-left: 15%;
+        margin-left: 20%;
         display: flex;
     }
     .bt-cart-xs {
@@ -117,10 +117,10 @@
 // // Smartphone
 @media all and (max-width: 576px) {
     .wrap-header {
-        width: 80%;
+        width: 60%;
     }
     .logo {
-        margin-left: 5%;
+        margin-left: 20%;
     }
     .more {
         display: none;

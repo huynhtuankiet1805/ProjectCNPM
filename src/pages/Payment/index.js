@@ -1,4 +1,3 @@
-import { click } from '@testing-library/user-event/dist/click';
 import './payment.scss'
 
 function Payment() {
@@ -8,7 +7,7 @@ function Payment() {
     function runYes() {
         var btYes = document.getElementById("btYes");
         var btNo = document.getElementById("btNo");
-        if (btYes.style.backgroundColor == "gray") {
+        if (btYes.style.backgroundColor === "gray") {
             btYes.style.backgroundColor = "white";
             btYes.style.color = "black";
             btYes.style.fontWeight = "normal";
@@ -24,7 +23,7 @@ function Payment() {
     function runNo() {
         var btYes = document.getElementById("btYes");
         var btNo = document.getElementById("btNo");
-        if (btNo.style.backgroundColor == "gray") {
+        if (btNo.style.backgroundColor === "gray") {
             btNo.style.backgroundColor = "white";
             btNo.style.color = "black";
             btNo.style.fontWeight = "normal";
@@ -40,7 +39,7 @@ function Payment() {
     function runPaytt() {
         var paytt = document.getElementById("paytt");
         var paygt = document.getElementById("paygt");
-        if (paytt.style.backgroundColor == "gray") {
+        if (paytt.style.backgroundColor === "gray") {
             paytt.style.backgroundColor = "white";
             paytt.style.color = "black";
             paytt.style.fontWeight = "normal";
@@ -56,7 +55,7 @@ function Payment() {
     function runPaygt() {
         var paytt = document.getElementById("paytt");
         var paygt = document.getElementById("paygt");
-        if (paygt.style.backgroundColor == "gray") {
+        if (paygt.style.backgroundColor === "gray") {
             paygt.style.backgroundColor = "white";
             paygt.style.color = "black";
             paygt.style.fontWeight = "normal";
