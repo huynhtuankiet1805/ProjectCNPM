@@ -4,9 +4,9 @@ import styles from './Tittle.module.scss';
 
 function Title() {
   return (
-    <nav class= {styles.Wrapper}>
+    <nav class={styles.Wrapper}>
       <p class={styles.Tittle}>
-        QUẢN LÝ <span>CỬA HÀNG</span> 
+        QUẢN LÝ THÔNG TIN VỀ <span>THỰC ĐƠN</span> và <span>ĐƠN HÀNG</span>
       </p>
     </nav>
   );

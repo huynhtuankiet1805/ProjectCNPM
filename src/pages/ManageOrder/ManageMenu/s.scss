@@ -10,7 +10,7 @@ ul {
     padding: 0;
     margin: 0;
 }
-.aaa{
+.aaa {
     padding-left: 85px;
 }
 li {
@@ -50,7 +50,7 @@ body {
 .navbar-brand span {
     color: #1fd87f;
 }
-.editWidth{
+.editWidth {
     width: 80%;
 }
 
@@ -91,7 +91,7 @@ h5 {
 .form {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 60px;
+    margin: 0 20px;
 }
 
 .detail1 {
@@ -113,8 +113,8 @@ h5 {
     height: 100%;
     padding: 10px;
     box-sizing: border-box;
-    background: #FFFFFF;
-    border: 1px solid #E2E2E2;
+    background: #ffffff;
+    border: 1px solid #e2e2e2;
     border-radius: 7px;
 }
 
@@ -147,8 +147,8 @@ h5 {
     padding: 10px;
     box-sizing: border-box;
     width: 100%;
-    background: #FFFFFF;
-    border: 1px solid #E2E2E2;
+    background: #ffffff;
+    border: 1px solid #e2e2e2;
     border-radius: 7px;
 }
 
@@ -156,7 +156,7 @@ h5 {
     position: absolute;
     width: 280px;
     height: 200px;
-    background: #FFFFFF;
+    background: #ffffff;
 }
 
 .form3 {
@@ -181,12 +181,14 @@ h5 {
     padding: 5px 5px;
 }
 
-.contact__form--group3 input[type="text"], .contact__form--group3 textarea, .contact__form--group input[type="email"] {
+.contact__form--group3 input[type='text'],
+.contact__form--group3 textarea,
+.contact__form--group input[type='email'] {
     padding: 10px;
     box-sizing: border-box;
     width: 94%;
-    background: #FFFFFF;
-    border: 1px solid #E2E2E2;
+    background: #ffffff;
+    border: 1px solid #e2e2e2;
     border-radius: 7px;
 }
 
@@ -194,12 +196,14 @@ h5 {
     display: flex;
 }
 
-.contact__form--group--number input[type="text"], .contact__form--group--number textarea, .contact__form--group--number input[type="email"] {
+.contact__form--group--number input[type='text'],
+.contact__form--group--number textarea,
+.contact__form--group--number input[type='email'] {
     padding: 10px;
     box-sizing: border-box;
     width: 90%;
-    background: #FFFFFF;
-    border: 1px solid #E2E2E2;
+    background: #ffffff;
+    border: 1px solid #e2e2e2;
     border-radius: 7px;
 }
 
@@ -243,18 +247,23 @@ h5 {
     padding: 25px 25px;
     border-radius: 3px;
     box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
-    border: 1px solid #E2E2E2;
+    border: 1px solid #e2e2e2;
     width: 880px;
-
 }
 
-table.table tr th, table.table tr td {
+table.table tr th,
+table.table tr td {
     border-color: #e9e9e9;
     padding: 12px 15px;
     vertical-align: middle;
 }
 
-.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
     padding: 8px;
     line-height: 1.42857143;
     vertical-align: top;
@@ -269,7 +278,8 @@ table.table td:last-child i {
     float: right;
 }
 
-table.table tr th, table.table tr td {
+table.table tr th,
+table.table tr td {
     border-color: #e9e9e9;
     padding: 12px 15px;
     vertical-align: middle;
@@ -282,14 +292,12 @@ table.table tr th, table.table tr td {
 /*------------------------------------------------------------------*/
 .side-menu {
     position: fixed;
-    background: #FFFFFF;
+    background: #ffffff;
     width: 280px;
     height: 100%;
     box-sizing: border-box;
     padding: 30px 20px;
-    transition: width .2s ease-in;
-
-
+    transition: width 0.2s ease-in;
 }
 
 .side-menu.inactive {
@@ -341,7 +349,7 @@ table.table tr th, table.table tr td {
     color: #666;
 }
 
-.side-menu .search-controller input[type=text] {
+.side-menu .search-controller input[type='text'] {
     border: 0;
     outline: none;
     height: 35px;
@@ -370,7 +378,6 @@ table.table tr th, table.table tr td {
     color: #fff;
 }
 
-
 .side-menu .main-menu {
     margin: 5px 0;
     position: relative;
@@ -379,7 +386,8 @@ table.table tr th, table.table tr td {
     overflow-x: hidden;
 }
 
-.side-menu.inactive .main-menu {}
+.side-menu.inactive .main-menu {
+}
 
 .side-menu .main-menu .menu-item .menu-icon {
     display: inline-block;
@@ -395,7 +403,7 @@ table.table tr th, table.table tr td {
     display: inline-block;
     line-height: 40px;
     opacity: 1;
-    transition: opacity .2s ease-in;
+    transition: opacity 0.2s ease-in;
 }
 
 .side-menu.inactive .main-menu .menu-item span {
@@ -413,7 +421,7 @@ table.table tr th, table.table tr td {
     padding-left: 30px;
     max-height: 0;
     overflow: hidden;
-    transition: max-height .2s ease-in;
+    transition: max-height 0.2s ease-in;
     /* display: block; */
 }
 
@@ -439,7 +447,6 @@ table.table tr th, table.table tr td {
     display: block;
     border-radius: 5px;
     color: #fff;
-
 }
 
 .divider {
@@ -451,7 +458,7 @@ table.table tr th, table.table tr td {
 
 .container {
     margin-left: 220px;
-    transition: margin-left .2s ease-in;
+    transition: margin-left 0.2s ease-in;
     padding-left: 70px;
     box-sizing: border-box;
 }
@@ -459,20 +466,6 @@ table.table tr th, table.table tr td {
 .container.inactive {
     margin-left: 80px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* {------------------------------------CSS SIDEMENU.JS------------------------------------} */
 .side-menu-footer {
@@ -503,7 +496,7 @@ table.table tr th, table.table tr td {
     color: #fff;
     position: absolute;
     opacity: 1;
-    transition: opacity .2s ease-in;
+    transition: opacity 0.2s ease-in;
 }
 
 .contact__form h1 {
@@ -574,14 +567,11 @@ table.table tr th, table.table tr td {
 }
 .card-body.team__item--3 img {
     width: 100%;
-
 }
 
 .card-body.team__item--3 {
     padding: 0;
-
 }
-
 
 /* {------------------------------------CSS CHAT.JS------------------------------------} */
 #container23 {
@@ -650,7 +640,8 @@ aside li:hover {
     background-color: #5e616a;
 }
 
-h2, h3 {
+h2,
+h3 {
     margin: 0;
 }
 
@@ -706,7 +697,7 @@ main header {
     padding: 30px 20px 30px 40px;
 }
 
-main header>* {
+main header > * {
     display: inline-block;
     vertical-align: top;
 }
@@ -750,7 +741,8 @@ main header h3 {
     padding: 10px 30px;
 }
 
-#chat h2, #chat h3 {
+#chat h2,
+#chat h3 {
     display: inline-block;
     font-size: 13px;
     font-weight: normal;
@@ -840,11 +832,9 @@ main footer a {
     display: inline-block;
 }
 
-
 /* {------------------------------------RESPON..>IPAD AIR chua xong------------------------------------} */
 /* SCREEN : 0---->820px */
 @media screen and (max-width: 820px) {
-
     .side-menu {
         display: none;
         /* position: fixed; */
@@ -860,12 +850,10 @@ main footer a {
     }
 
     .col-sm-4 {
-
         flex: 0 0 33%;
         max-width: 33%;
         margin-bottom: 2rem;
         padding-left: 50px;
-
     }
 
     .row {
@@ -876,6 +864,6 @@ main footer a {
         width: 50%;
     }
 
-    .title {}
+    .title {
+    }
 }
-
