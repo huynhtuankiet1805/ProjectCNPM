@@ -168,29 +168,18 @@ function Home() {
 
 								<div className="col-sm-4">
 									<div className="item">
-										<img src={require("~/image/cr7_sale.png")} alt="portfolio image" />
+										<img src={require("~/image/discount2.jpg")} alt="portfolio image" />
 										<div className="isotope-overlay">
 											<a href="#">
-												CR7
+												Discount1
 											</a>
 										</div>
 									</div>
 									<div className="item">
-										<img src={require("~/image/cr7_sale.png")} alt="portfolio image" />
+										<img src={require("~/image/discount2.jpg")} alt="portfolio image" />
 										<div className="isotope-overlay">
 											<a href="#">
-												CR7
-											</a>
-										</div>
-									</div>
-								</div>
-
-								<div className="col-sm-4">
-									<div className="item">
-										<img src={require("~/image/neymar_sale.png")} alt="portfolio image" />
-										<div className="isotope-overlay">
-											<a href="#">
-												NEYMAR
+												Discount1
 											</a>
 										</div>
 									</div>
@@ -198,18 +187,29 @@ function Home() {
 
 								<div className="col-sm-4">
 									<div className="item">
-										<img src={require("~/image/cr7_sale.png")} alt="portfolio image" />
+										<img src={require("~/image/discount1.jpg")} alt="portfolio image" id='img1' />
 										<div className="isotope-overlay">
 											<a href="#">
-												CR7
+												Discount2
+											</a>
+										</div>
+									</div>
+								</div>
+
+								<div className="col-sm-4">
+									<div className="item">
+										<img src={require("~/image/discount2.jpg")} alt="portfolio image" />
+										<div className="isotope-overlay">
+											<a href="#">
+												Discount1
 											</a>
 										</div>
 									</div>
 									<div className="item">
-										<img src={require("~/image/cr7_sale.png")} alt="portfolio image" />
+										<img src={require("~/image/discount2.jpg")} alt="portfolio image" />
 										<div className="isotope-overlay">
 											<a href="#">
-												CR7
+												Discount1
 											</a>
 										</div>
 									</div>
